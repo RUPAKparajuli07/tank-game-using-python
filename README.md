@@ -1,4 +1,3 @@
-"""
 Tanks Game Documentation
 Author: Rupak Parajuli
 
@@ -145,4 +144,76 @@ Functions Documentation:
     - Parameters:
         - x_loc (int): The x-coordinate of the barrier.
         - ran_height (int): The height of the barrier.
-        - bar_width (int): The
+        - bar_width (int): The width of the barrier.
+    - Returns: None
+
+11. explosion(x, y, size=50)
+    - Description: Displays an explosion animation on the game layout display.
+    - Parameters:
+        - x (int): The x-coordinate of the explosion.
+        - y (int): The y-coordinate of the explosion.
+        - size (int, optional): The size of the explosion animation. Defaults to 50.
+    - Returns: None
+
+12. playerfireShell(xy, tankx, tanky, turPost, gun_power, xloc, bar_width, ranHeight, eTankX, eTankY)
+    - Description: Fires a shell from the player's tank and handles shell movement and collisions.
+    - Parameters:
+        - xy (list): The current position of the shell.
+        - tankx (int): The x-coordinate of the player's tank.
+        - tanky (int): The y-coordinate of the player's tank.
+        - turPost (int): The position of the player's tank turret.
+        - gun_power (int): The power of the shot.
+        - xloc (int): The x-coordinate of the barrier.
+        - bar_width (int): The width of the barrier.
+        - ranHeight (int): The height of the barrier.
+        - eTankX (int): The x-coordinate of the enemy's tank.
+        - eTankY (int): The y-coordinate of the enemy's tank.
+    - Returns: None
+
+13. computerfireShell(xy, tankx, tanky, turPost, gun_power, xloc, bar_width, ranHeight, ptankx, ptanky)
+    - Description: Fires a shell from the enemy's tank and handles shell movement and collisions.
+    - Parameters:
+        - xy (list): The current position of the shell.
+        - tankx (int): The x-coordinate of the enemy's tank.
+        - tanky (int): The y-coordinate of the enemy's tank.
+        - turPost (int): The position of the enemy's tank turret.
+        - gun_power (int): The power of the shot.
+        - xloc (int): The x-coordinate of the barrier.
+        - bar_width (int): The width of the barrier.
+        - ranHeight (int): The height of the barrier.
+        - ptankx (int): The x-coordinate of the player's tank.
+        - ptanky (int): The y-coordinate of the player's tank.
+    - Returns: None
+
+14. power(level)
+    - Description: Displays and adjusts the power level of the shot.
+    - Parameters:
+        - level (int): The current power level.
+    - Returns: None
+
+15. game_intro()
+    - Description: Displays the game introduction screen and handles user input.
+    - Parameters: None
+    - Returns: None
+
+16. game_over()
+    - Description: Displays the game over screen and handles user input.
+    - Parameters: None
+    - Returns: None
+
+17. you_win()
+    - Description: Displays the win screen and handles user input.
+    - Parameters: None
+    - Returns: None
+
+18. health_bars(p_health, e_health)
+    - Description: Displays the health bars for the player and enemy tanks.
+    - Parameters:
+        - p_health (int): The current health of the player tank.
+        - e_health (int): The current health of the enemy tank.
+    - Returns: None
+
+19. gameLoop()
+    - Description: The main game loop that handles game events, updates game elements, and displays them on the game layout display.
+    - Parameters: None
+    - Returns: None
