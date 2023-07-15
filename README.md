@@ -217,3 +217,19 @@ Functions Documentation:
     - Description: The main game loop that handles game events, updates game elements, and displays them on the game layout display.
     - Parameters: None
     - Returns: None
+
+
+## Controls
+
+- Use the arrow keys to move the tank.
+- Press the spacebar to fire shells at the enemy tank.
+- Adjust the power of the shot using the up and down arrow keys.
+- Press P to pause the game.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
