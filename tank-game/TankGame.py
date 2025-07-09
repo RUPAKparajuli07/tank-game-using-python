@@ -1,3 +1,18 @@
+import pygame
+import random
+
+
+pygame.init()
+
+display_width = 900
+display_height = 700
+
+game_layout_display = pygame.display.set_mode((display_width, display_height))
+pygame.display.set_caption('Tanks Game - By  Rupak')
+
+Resources = pygame.image.load("resources/game_background.png")
+pygame.display.set_icon(Resources)
+
 
 wheat = (245, 222, 179)
 
